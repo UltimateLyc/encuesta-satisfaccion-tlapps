@@ -1,5 +1,52 @@
 @media (min-width: 768px) and (max-width: 1024px) {
-    .container-assessment{
-        border: 1px solid red;
+
+    .input-menu{
+        /* border: 1px solid blue; */
+        width: 100%;
+        height: 629px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .input-text {
+        width: 40em;
+        height: 1.5em;
+        padding: 10px 25px;
+        margin: 30px 0;
+        background-color: #C1C5C8;
+        border: 1px solid #270089;
+        color: #270089;
+        border-radius: 25px;
+
+        outline: none;
+        resize: none;
+    }
+
+    .input-text:hover{
+        width: 45em;
+        height: 2em;
+    }
+
+    .input-text::placeholder{
+        color: #270089;
+        opacity: 0.5;
+        text-align: center;
+    }
+
+    .btn-submit{
+        background-color: #270089;
+        color: #C1C5C8;
+        margin: 30px 0;
+        width: 15em;
+        height: 3em;
+        border-radius: 25px;
+        border: 1px solid #270089;
+    }
+
+    .btn-submit:hover{
+        width: 16em;
+        height: 3.2em;
     }
 }

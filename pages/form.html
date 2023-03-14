@@ -12,18 +12,30 @@
     <link rel="stylesheet" href="../styles/index.css">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="./assets/favicon/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../assets/favicon/favicon.png" type="image/x-icon">
 
      <!-- JavaScript -->
 </head>
 <body>
     <header class="header-assessment">
-        <img class="img-header" src="../assets/images/Logotipo TLapps 2022_png_rgb_150dpi_gris_sin fondo.png" alt="Logo TLapps" >
+        <a href="../index.html">
+            <img class="img-header" src="../assets/images/Logotipo TLapps 2022_png_rgb_150dpi_gris_sin fondo.png" alt="Logo TLapps" >
+        </a>
     </header>
 
     <nav class="nav-assessment">
         <div class="container-assessment">
-            
+            <ul class="input-menu">
+                <li class="input-list">
+                    <input class="input-text" type="text" id="name" name="name" placeholder="Nombre" required>
+                </li>
+                <li class="input-list">
+                    <input class="input-text" type="text" id="company" name="company" placeholder="Compañia" required>
+                </li>
+                <li class="input-list">
+                    <button class="btn-submit" type="submit" onclick="" >Enviar</button>
+                </li>
+            </ul>
         </div>
     </nav>
 
