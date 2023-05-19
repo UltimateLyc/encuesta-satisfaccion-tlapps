@@ -61,7 +61,7 @@ const getData = () => { // eslint-disable-line no-unused-vars
   console.log(user_name, '****', company, '****', comment, '****', id_reaction)
 
   // code for /x-www-form-urlencoded;charset=UTF-8
-  const details = {
+  /* const details = {
     user_name,
     company,
     comment,
@@ -82,5 +82,5 @@ const getData = () => { // eslint-disable-line no-unused-vars
       'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'
     },
     body: formBody
-  })
+  }) */
 }
