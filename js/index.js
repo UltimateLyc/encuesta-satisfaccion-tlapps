@@ -107,6 +107,7 @@ const getData = (bool) => { // eslint-disable-line no-unused-vars
     id_reaction
   }
 
+  // Validar ejecuta y manda antes de la sentencia
   let formBody = []
   for (const property in details) {
     const encodedKey = encodeURIComponent(property)
